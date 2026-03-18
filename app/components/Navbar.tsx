@@ -27,11 +27,11 @@ ${scrolled ? "bg-white/80 backdrop-blur-md shadow text-black" : "bg-transparent 
 
 <div className="max-w-7xl mx-auto px-10 py-5 flex justify-between items-center">
 
-<div className="font-semibold text-xl text-[#C9A227]">
+<div className="font-semibold text-xl text-[#C9A227] flex justify-between items-center">
 <a href="#home">ANAK-ME</a>
 </div>
 
-<nav className="flex gap-8 text-sm">
+<nav className="hidden mdflex gap-8 text-sm">
 
 <a href="#home">Home</a>
 
@@ -42,6 +42,10 @@ ${scrolled ? "bg-white/80 backdrop-blur-md shadow text-black" : "bg-transparent 
 <a href="#contact">Contact</a>
 
 </nav>
+
+<div className="md:hidden">
+☰
+</div>
 
 </div>
 

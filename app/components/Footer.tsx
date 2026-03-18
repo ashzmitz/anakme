@@ -6,7 +6,7 @@ return(
 
 <footer className="container-fashion">
 <div className="border-t border-gray-800 text-center text-sm text-gray-400"></div>
-<div className="max-w-7xl mx-auto px-12 py-16 grid grid-cols-4 gap-12">
+<div className="max-w-7xl mx-auto px-12 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
 
 {/* BRAND */}
 
@@ -19,6 +19,9 @@ ANAK-ME Fashion
 <p className="text-gray-400 text-sm">
 Minimal fashion for modern lifestyle.
 Timeless style and premium quality.
+</p><br></br>
+<p className="text-gray-400 text-sm">
+Monday - Saturday
 </p>
 <br></br>
 <FaMapMarkerAlt className="text-red-500 py-0.5"/>

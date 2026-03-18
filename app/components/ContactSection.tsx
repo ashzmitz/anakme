@@ -6,7 +6,7 @@ return(
 
 <section id="contact" className="container-fashion scroll-mt-28 pt-32 py-15">
 
-<div className="max-w-7xl mx-auto px-12 grid grid-cols-2 gap-12">
+<div className="max-w-7xl mx-auto px-12 grid grid-cols-1 md:grid-cols-2 gap-12">
 
 {/* LEFT SIDE */}
 
@@ -18,6 +18,10 @@ Contact Us
 
 <p className="text-gray-600 mb-8">
 Reach us through WhatsApp or Instagram for orders and inquiries.
+</p>
+
+<p className="text-1xl mb-6">
+Monday - Saturday
 </p>
 
 <div className="flex flex-col gap-4">
